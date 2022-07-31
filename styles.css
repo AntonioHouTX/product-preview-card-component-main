@@ -5,3 +5,16 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+h1 {
+  font-family: 'fraunces', serif;
+}
+
+p {
+  font-family: 'montserrat', sans-serif;
+  color: hsl(228, 12%, 48%);
+}
