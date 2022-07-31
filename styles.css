@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -10,11 +10,47 @@ body {
   background-color: hsl(30, 38%, 92%);
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 80vh; */
+  margin: 10vh 10vw;
+  border: 1px solid black;
+  /* border-radius: 10px; */
+}
+
+img {
+  border-radius: 10px 0 0 10px;
+}
+
+.description_price {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 100%);
+  height: 100%;
+  border-radius: 0 10px 10px 0;
+}
+
 h1 {
-  font-family: 'fraunces', serif;
+  font-family: "fraunces", serif;
 }
 
 p {
-  font-family: 'montserrat', sans-serif;
+  font-family: "montserrat", sans-serif;
   color: hsl(228, 12%, 48%);
+}
+
+.new_price {
+  color: hsl(158, 36%, 37%);
+}
+
+button {
+  background-color: hsl(158, 36%, 37%);
+  font-family: "montserrat", sans-serif;
+  color: white;
+}
+
+.attribution {
+  /* display: inline-block; */
 }
