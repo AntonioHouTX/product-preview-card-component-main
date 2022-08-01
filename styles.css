@@ -11,20 +11,22 @@ body {
 }
 
 main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* justify-content: center; */
+  /* align-items: center; */
   /* height: 80vh; */
   margin: 10vh 10vw;
   border: 1px solid black;
   /* border-radius: 10px; */
 }
 
-img {
+picture img {
   border-radius: 10px 0 0 10px;
 }
 
 .description_price {
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   background-color: hsl(0, 0%, 100%);
